@@ -1,3 +1,5 @@
+import { search } from './search.js'
+
 const str = 'Hello ' 
 const human = {
   name: 'Brian',
