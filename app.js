@@ -1,3 +1,4 @@
+import { search } from './search.js'
 import { createApp } from "./create.js";
 
 const str = 'Hello ' 
