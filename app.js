@@ -1,3 +1,5 @@
+import { createApp } from "./create.js";
+
 const str = 'Hello ' 
 const human = {
   name: 'Brian',
@@ -5,5 +7,6 @@ const human = {
   age: 22,
 }
 str += human.name + human.gender
+
 
 console.log(str)
