@@ -1,8 +1,9 @@
 const str = 'Hello ' 
 const human = {
-  name: 'Alex',
+  name: 'Brian',
+  gender: 'male',
   age: 22,
 }
-str += human.name
+str += human.name + human.gender
 
 console.log(str)
